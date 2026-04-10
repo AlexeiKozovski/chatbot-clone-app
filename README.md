@@ -51,7 +51,7 @@ cp .env.example .env.local
 - **Optional (real LLM responses)**
     - `LLM_BASE_URL` (OpenAI-compatible endpoint, e.g. OpenAI/OpenRouter)
     - `LLM_API_KEY`
-    - `LLM_MODEL` (defaults to `gpt-4o-mini`)
+    - `LLM_MODEL` (defaults to `openrouter/free`)
 
 - **Optional (Realtime on client)**
     - `NEXT_PUBLIC_SUPABASE_URL`
